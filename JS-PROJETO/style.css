@@ -28,7 +28,8 @@ body {
      text-align: left;
      width: 100%;
      font-size: 32px;
- }
+    }
+
      .titulo-principal span {
           color: var(--verde);
       }
@@ -43,25 +44,28 @@ body {
      font-size: 18px;
      align-items: center;
      width: 100%;
-     border-bottom: 4px solid var(--botao-ativo);
-     border-left: 2px solid var(--botao-ativo);
-     border-right: 2px solid var(--botao-ativo);
-     border-top: none;
+      border-bottom: 4px solid var(--botao-ativo);
+      border-left: 2px solid var(--botao-ativo);
+      border-right: 2px solid var(--botao-ativo);
+      border-top: none;
  }
 
  .botoes {
     display: block;
-
  }
- 
- .botao:first-child {
-    border-radius: 40px 40px 0 0;
-}
 
-@media screen and (min-width: 768px) {
+ @media screen and (min-width: 768px) {
     .botoes {
         display: flex;
     }
+    .ativo{
+        background-color: var(--botao-ativo);
+        border-bottom: 4px solid var(--verde);
+        }
+
+ .botao:first-child {
+    border-radius: 40px 40px 0 0;
+}
 
     .botao:first-child {
         border-radius: 40px 0 0 0;
