@@ -91,7 +91,6 @@ display:none;
     text-align: center;
     color: var(--verde);
     text-transform: uppercase;
-
 }
 
  @media screen and (min-width: 768px) {
